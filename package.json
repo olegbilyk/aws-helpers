@@ -1,0 +1,9 @@
+{
+  "name": "aws-helpers",
+  "version": "1.0.0",
+  "description": "Amazon Web Services helpers (NodeJS)",
+  "main": "index.js",
+  "repository": "https://github.com/olegbilyk/aws-helpers.git",
+  "author": "olegbilyk <oleg.bilyk.pro@gmail.com>",
+  "license": "MIT"
+}
