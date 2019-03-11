@@ -7,8 +7,8 @@
   "author": "olegbilyk <oleg.bilyk.pro@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "uploadFolder": "node ./deploy/uploadFolderS3.js",
-    "invalidate": "node ./deploy/invalidate.js"
+    "uploadFolder": "node ./src/uploadFolderS3.js",
+    "invalidate": "node ./src/invalidate.js"
   },
   "devDependencies": {
     "aws-sdk": "^2.418.0"
