@@ -2,8 +2,15 @@
   "name": "aws-helpers",
   "version": "1.0.0",
   "description": "Amazon Web Services helpers (NodeJS)",
-  "main": "index.js",
+  "main": "",
   "repository": "https://github.com/olegbilyk/aws-helpers.git",
   "author": "olegbilyk <oleg.bilyk.pro@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "uploadFolder": "node ./deploy/uploadFolderS3.js",
+    "invalidate": "node ./deploy/invalidate.js"
+  },
+  "devDependencies": {
+    "aws-sdk": "^2.418.0"
+  }
 }
